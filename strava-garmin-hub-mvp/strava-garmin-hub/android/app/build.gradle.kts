@@ -7,6 +7,7 @@ plugins {
 android {
     namespace = "pl.szymon.traininghub"
     compileSdk = 35
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -26,6 +27,7 @@ android {
 
     buildFeatures {
         compose = true
+    }
 }
 
 dependencies {
